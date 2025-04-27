@@ -9,8 +9,8 @@ import asyncio
 
 class TextSplitterPlugin(BasePlugin):
     default_config = {
-        "split_threshold": 600,  # 触发分段的最小字符数
-        "segment_size": 600  # 每个分段的字符数
+        "split_threshold": 500,  # 触发分段的最小字符数
+        "segment_size": 500  # 每个分段的字符数
     }
 
     def __init__(self, host: APIHost):
